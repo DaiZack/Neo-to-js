@@ -19,7 +19,7 @@
                     }}
                     )
                     .done(function(result){
-                         console.log(result.results[0].data);
+                         console.log(result.data);
                     })
                     .fail(function(error){
                         console.log(error.statusText);
