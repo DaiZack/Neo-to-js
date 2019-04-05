@@ -15,7 +15,7 @@
                     data: body,
                     contentType: "application/json",
                     beforeSend: function (xhr) {
-                        xhr.setRequestHeader ("Authorization", "Basic " + btoa("valbot"+ ":" + "rel8edto"));
+                        xhr.setRequestHeader ("Authorization", "Basic " + btoa("userName"+ ":" + "password"));
                     }}
                     )
                     .done(function(result){
